@@ -21,7 +21,7 @@ function ligarDesligarLampada() {
 function quebrarLampada() {
   if (ligada) {
     alert('Você quebrou a lâmpada!');
-    lampada.src = 'broke.png';
+    lampada.src = 'Broke.png';
     btn.removeEventListener('click', ligarDesligarLampada);
     btn.removeEventListener('dbclick', quebrarLampada);
     lampada.removeEventListener('dblclick', quebrarLampada);
