@@ -2,6 +2,7 @@
 body {
   background-image: url(stonebg.jpg);
   background-size: cover;
+  background-position: relative;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
